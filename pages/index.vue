@@ -14,7 +14,7 @@
               package available.
             </p>
             <div class="btn-container">
-              <a href="/" target="_blank" class="btn my-6 rounded-md">
+              <a href="/" target="_blank" class="btn md:my-6 md:ml-4 rounded-md presale-btn">
                 <span class="ico"></span>
                 <span>Claim</span>
               </a>
@@ -283,8 +283,9 @@ export default {
 <style>
 .ico {
   background: url("../assets/img/lock.svg");
-  width: 30px;
-  height: 30px;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
   display: inline-block;
 }
 a span {
